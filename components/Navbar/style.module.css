@@ -1,0 +1,32 @@
+.nav{
+    background-color: black;
+    width: 100vw;
+    height: 5rem;
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+.navLinks{
+    flex: 1;
+    text-align: right;
+}  
+.navLinks ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.navLinks ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navLinks ul li:hover::after{
+    width: 100%;
+}
