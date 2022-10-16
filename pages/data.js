@@ -1,5 +1,5 @@
 import style from "../styles/Home.module.css"
-
+import Link from "next/link"
 export default function data() {
   return (
     <>
@@ -33,7 +33,7 @@ export default function data() {
 <img className={style.textx} src="./6.png"></img>
 <img className={style.textx} src="./7.png"></img>
 <img className={style.textx} src="./8.png"></img>
-<p><a href="/analysis" style={{color:"blue", textDecoration:"underline"}}>Continue to the analysis</a></p>
+<p><Link href="/analysis" style={{color:"blue", textDecoration:"underline"}}>Continue to the analysis</Link></p>
   </div>
   </>
   )

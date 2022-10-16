@@ -1,5 +1,6 @@
 import Head from "next/head"
 import style from "../styles/Home.module.css"
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
         <div className={style.textBox}>
           <h1>Math Project</h1>
           <p>Research project based on the relationship between sleep deprivation and the hours spent on social media. </p>
-          <a className={style.hero} href="/research">Learn More</a>
+          <Link  href="/research"><a className={style.hero}>Learn More</a></Link>
         </div>
        
       </section>
@@ -53,7 +54,7 @@ export default function Home() {
 <li>8) Any other factors that might bias the results?</li>
 
       </ul>
-      <p><a href="/research" style={{color:"blue", textDecoration:"underline"}}>Continue to the research</a></p>
+      <p><Link href="/research" style={{color:"blue", textDecoration:"underline"}}><a>Continue to the research</a></Link></p>
       </div>
       
       

@@ -1,5 +1,5 @@
 import style from "../styles/Home.module.css"
-
+import Link from "next/link"
 export default function research() {
   return (
     <>
@@ -35,7 +35,7 @@ export default function research() {
     <li>Difficulty focusing and remembering </li>
     <li>Mood changes </li>
 </ul>
-<p><a href="/data" style={{color:"blue", textDecoration:"underline"}}>Continue to data</a></p>
+<p><Link href="/data" ><a style={{color:"blue", textDecoration:"underline"}}>Continue to data</a></Link></p>
          </div>
          </>
   )

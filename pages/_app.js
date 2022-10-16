@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import Navbar from '../components/Navbar'
 import Head from 'next/head'
+import Link from 'next/link'
 
 function MyApp({ Component, pageProps }) {
 
@@ -18,29 +19,29 @@ function MyApp({ Component, pageProps }) {
           <div className='footer-col'>
             <h4>Math Project</h4>
             <ul className='ul'>
-              <li><a href="/">Home</a></li>
-              <li><a href="/research">Research</a></li>
-              <li><a href="/data">Data</a></li>
-              <li><a href="/analysis">Analysis</a></li>
-              <li><a href="/more">More</a></li>
+              <li><Link href="/">Home</Link></li>
+              <li><Link href="/research">Research</Link></li>
+              <li><Link href="/data">Data</Link></li>
+              <li><Link href="/analysis">Analysis</Link></li>
+              <li><Link href="/more">More</Link></li>
             </ul>
           </div>
           <div className='footer-col'>
             <h4>Graphs</h4>
             <ul className='ul'>
-              <li><a href="#">Graph 1</a></li>
-              <li><a href="#">Graph 2</a></li>
-              <li><a href="#">Graph 3</a></li>
-              <li><a href="#">Graph 4</a></li>
+              <li><Link href="#">Graph 1</Link></li>
+              <li><Link href="#">Graph 2</Link></li>
+              <li><Link href="#">Graph 3</Link></li>
+              <li><Link href="#">Graph 4</Link></li>
               
             </ul>
           </div>
           <div className='footer-col'>
             <h4>Names</h4>
             <ul className='ul'>
-              <li><a href="#">Sami Laayouni</a></li>
-              <li><a href="#">Zakaria Moussai</a></li>
-              <li><a href="#">Saad Bouroumiya</a></li>
+              <li><Link href="#">Sami Laayouni</Link></li>
+              <li><Link href="#">Zakaria Moussai</Link></li>
+              <li><Link href="#">Saad Bouroumiya</Link></li>
               
               
             </ul>
@@ -48,8 +49,8 @@ function MyApp({ Component, pageProps }) {
           <div className='footer-col'>
             <h4>Contact Us</h4>
             <ul className='ul'>
-              <li><a href="#">Email</a></li>
-              <li><a href="#">Phone</a></li>
+              <li><Link href="#">Email</Link></li>
+              <li><Link href="#">Phone</Link></li>
              
               
               

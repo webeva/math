@@ -1,16 +1,16 @@
 import style from "./style.module.css"
-
+import Link from "next/link"
 export default function Navbar() {
   return (
     <nav className={style.nav}>
         <a style={{fontSize:"1.3rem", fontWeight:"bold"}}>ASI Research</a>
         <div className={style.navLinks}>
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/research">Research</a></li>
-            <li><a href="/data">Data</a></li>
-            <li><a href="/analysis">Analysis</a></li>
-            <li><a href="/more">More</a></li>
+            <li><Link href="/"><a>Home</a></Link></li>
+            <li><Link href="/research"><a>Research</a></Link></li>
+            <li><Link href="/data"><a>Data</a></Link></li>
+            <li><Link href="/analysis"><a>Analysis</a></Link></li>
+            <li><Link href="/more"><a>More</a></Link></li>
           </ul>
         </div>
       </nav>
