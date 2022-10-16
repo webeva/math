@@ -20,7 +20,7 @@ export default function more() {
 <h1>Works Cited</h1>
 <p>“Why Is Sleep Important?” National Heart Lung and Blood Institute, U.S. Department of Health and Human Services, https://www.nhlbi.nih.gov/health/sleep/why-sleep-important#:~:text=During%20sleep%2C%20your%20body%20is,long%2Dterm)%20health%20problems</p>
 <p>“Sleep in Middle and High School Students.” Centers for Disease Control and Prevention, Centers for Disease Control and Prevention, 10 Sept. 2020, https://www.cdc.gov/healthyschools/features/students-sleep.htm#:~:text=The%20American%20Academy%20of%20Sleep,10%20hours%20per%2024%20hours.</p>
-<p>Team, Brain and Spine. “Here's What Happens When You Don't Get Enough Sleep (and How Much You Really Need a Night).”, Cleveland Clinic, 25 Mar. 2022, https://health.clevelandclinic.org/happens-body-dont-get-enough-sleep/#:~:text=Some%20of%20the%20most%20serious,function%20and%20lower%20sex%20drive.</p>
+<p>Team, Brain and Spine. “Here&apos;s What Happens When You Don&apos;t Get Enough Sleep (and How Much You Really Need a Night).”, Cleveland Clinic, 25 Mar. 2022, https://health.clevelandclinic.org/happens-body-dont-get-enough-sleep/#:~:text=Some%20of%20the%20most%20serious,function%20and%20lower%20sex%20drive.</p>
 <p>“Sleep & Social Media: Staying Connected Can Keep You Up.” Rob Newsom, 22 Apr. 2022, https://www.sleepfoundation.org/how-sleep-works/sleep-and-social-media#:~:text=This%20research%20found%20that%20the,symptoms%20of%20insomnia%20and%20depression.</p>
 <p>How Does Social Media Affect Your Sleep?, Nicola Sunter, 13 Dec. 2021 https://www.sleepstation.org.uk/articles/sleep-tips/social-media/.</p>
 <p>Heavy Social Media Use Linked to Poor Sleep.” BBC News, BBC, 23 Oct. 2019, https://www.bbc.com/news/health-50140111.</p>
